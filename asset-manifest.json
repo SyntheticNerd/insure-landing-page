@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/insure-landing-page/static/css/main.073c9b0a.css",
+    "main.js": "/insure-landing-page/static/js/main.ed02aa98.js",
+    "static/js/787.9685a920.chunk.js": "/insure-landing-page/static/js/787.9685a920.chunk.js",
+    "static/media/logo.svg": "/insure-landing-page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/insure-landing-page/index.html",
+    "main.073c9b0a.css.map": "/insure-landing-page/static/css/main.073c9b0a.css.map",
+    "main.ed02aa98.js.map": "/insure-landing-page/static/js/main.ed02aa98.js.map",
+    "787.9685a920.chunk.js.map": "/insure-landing-page/static/js/787.9685a920.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.ed02aa98.js"
+  ]
+}
