@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import InsureLanding from "./components/InsureLanding";
+import Nav from "./components/nav/Nav";
+import { GlobalStyle } from "./components/Fonts";
+import { ThemeProvider } from "styled-components";
 
 function App() {
+  const theme = {
+    light: {
+      bgPurple: `hsl(256, 26%, 20%)`,
+      bodyText: `hsl(273, 4%, 51%)`,
+      headTextPrim: `black`,
+      headTextSec: `white`,
+
+    },
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <GlobalStyle />
+      <ThemeProvider theme={theme.light}>
+        <Nav />
+        <InsureLanding />
+      </ThemeProvider>
     </div>
   );
 }
