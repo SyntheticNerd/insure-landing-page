@@ -61,6 +61,9 @@ export const FooterWrap = styled.div`
         font-weight: 700;
         width: fit-content;
         margin: auto;
+        @media (min-width: 785px) {
+            margin: 0;
+        }
         &:hover{
             border-bottom: 2px solid black;
         }
