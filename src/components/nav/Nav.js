@@ -145,35 +145,12 @@ export default function Nav() {
           </LinkCont>
         </LinkList>
         <IconsList>
-          {/* <LinkCont>
-            <NavIcon
-              href='https://www.linkedin.com/in/andrew-schroepfer/'
-              target='_blank'
-            >
-              <LinkedinIcon />
-            </NavIcon>
-          </LinkCont>
-          <LinkCont>
-            <NavIcon href='https://www.behance.net/andrewsch' target='_blank'>
-              <BehanceIcon />
-            </NavIcon>
-          </LinkCont>
-          <LinkCont>
-            <NavIcon
-              href='https://github.com/SyntheticDesigner'
-              target='_blank'
-            >
-              <GithubIcon />
-            </NavIcon>
-          </LinkCont> */}
           <LinkCont>
             <SandwichIcon
               onClick={() => {
-                // console.log(navModal);
                 setNavModal(!navModal);
               }}
             >
-              {/* <BlankIcon /> */}
               <Line1 navModal={navModal} />
               <Line2 navModal={navModal} />
               <Line3 navModal={navModal} />

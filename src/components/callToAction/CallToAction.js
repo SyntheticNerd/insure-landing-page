@@ -4,6 +4,7 @@ import {
   ContentWrap,
   CTAWrap,
   HeroImg,
+  Hr1,
   Hr2,
   ImgOverlay,
   SectionWrap,
@@ -12,14 +13,8 @@ import {
 export default function CallToAction() {
   return (
     <CTAWrap>
-      <HeroImg
-        src={
-          process.env.PUBLIC_URL +
-          "/dev16Images/insureImages/image-intro-desktop.jpg"
-        }
-        alt='Family walking along the Sidewalk'
-      />
       <SectionWrap>
+        <Hr1 />
         <ContentWrap>
           <div>
             <h1>Humanizing your insurance.</h1>
@@ -30,10 +25,17 @@ export default function CallToAction() {
             </p>
             <Btn>VIEW PLANS</Btn>
           </div>
+          <HeroImg
+            src={
+              process.env.PUBLIC_URL +
+              "/dev16Images/insureImages/image-intro-desktop.jpg"
+            }
+            alt='Family walking along the Sidewalk'
+          />
         </ContentWrap>
-        <ImgOverlay></ImgOverlay>
         <Hr2 />
       </SectionWrap>
+      <ImgOverlay></ImgOverlay>
     </CTAWrap>
   );
 }

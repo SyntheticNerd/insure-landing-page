@@ -6,6 +6,9 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 2.8em;
     font-weight: 400;
     line-height: 1em;
+    @media (min-width: 785px) {
+      font-size: min(5em, 5vw);
+    }
    }
    h2 {
     font-family: 'DM Serif Display', serif;

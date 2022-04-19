@@ -67,7 +67,7 @@ export const NavLink = styled.button`
   position: relative;
   letter-spacing: 2px;
   font-weight: medium;
-  font-size: 1.1em;
+  font-size: 1em;
   opacity: 0.5;
   padding: 10px 30px;
   background: none;
